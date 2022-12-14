@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: white;
+    text-align: center;
+    font-family: 'Verdana' sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+#container-score {
+    color: #F94F6D;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    background: black;
+    border-radius: 5px;
+    height: 1.3em;
+    margin-bottom: .5em;
+}
+
+button {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+}
+
+button:hover,
+button:active {
+    cursor: pointer;
+    background: #9AABD8;
+    color: #1B244A;
+}
